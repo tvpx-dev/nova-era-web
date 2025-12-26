@@ -1,0 +1,9 @@
+@use "../scss/variables";
+
+@mixin flexbox($direction, $justify, $align, $gap: variables.$gap-0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
