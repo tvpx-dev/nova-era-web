@@ -1,0 +1,121 @@
+// ===== TIPOGRAFIA =====
+$text-title: "Montserrat", "Hanken Grotesk", sans-serif;
+$text-subtitle: "Lora", "Libre Baskerville", Georgia, serif;
+$text-content: "Hind Madurai", "Inter", "Open Sans", sans-serif;
+
+$size-text-12: 0.75rem;
+$size-text-14: 0.875rem;
+$size-text-16: 1rem;
+$size-text-20: 1.25rem;
+$size-text-24: 1.5rem;
+$size-text-32: 2rem;
+$size-text-48: 3rem;
+
+$weight-300: 300;
+$weight-400: 400;
+$weight-500: 500;
+$weight-600: 600;
+$weight-700: 700;
+$weight-800: 800;
+$weight-900: 900;
+
+$lh-1: 1;
+$lh-2: 1.25;
+$lh-3: 1.5;
+$lh-4: 1.8;
+
+// ===== CORES =====
+$color-primary-base: #0c2b4e;
+$color-primary-hover: #164277;
+$color-primary-active: #081d35;
+$color-primary-light: #f4f4f4;
+$color-primary-emphasis: #320a6b;
+
+$color-secondary-dark: #6c757d;
+$color-secondary-light: #ebeff2;
+
+$color-neutral-dark1: #212529;
+$color-neutral-dark2: #495057;
+$color-neutral-dark3: #adb5bd;
+$color-neutral-light1: #dee2e6;
+$color-neutral-light2: #f8f9fa;
+$color-neutral-light3: #ffffff;
+
+$color-success-dark: #28a745;
+$color-success-light: #d4edda;
+$color-error-dark: #dc3545;
+$color-error-light: #f8d7da;
+$color-warning-dark: #ffc107;
+$color-warning-light: #fff3cd;
+$color-info-dark: #17a2b8;
+$color-info-light: #d1ecf1;
+
+// ===== EFEITOS =====
+$shadow-1: 0 0.063rem 0.125rem rgba(0, 0, 0, 0.05);
+$shadow-2: 0 10.625rem 1.875rem -5px rgba(12, 43, 78, 0.3);
+$shadow-3: 0 15px 35px -0.313rem rgba(50, 10, 107, 0.25);
+$shadow-4: 0 0.25rem 0.75rem rgba(26, 61, 100, 0.15);
+
+$text-shadow-1: 0 0 0.625rem rgba(29, 84, 108, 0.8);
+$text-shadow-2: 0.063rem 0.063rem 0px rgba(12, 43, 78, 0.2);
+
+// ===== ESPAÇAMENTOS =====
+$margin-4: 0.25rem;
+$margin-8: 0.5rem;
+$margin-16: 1rem;
+$margin-24: 1.5rem;
+$margin-32: 2rem;
+$margin-48: 3rem;
+$margin-64: 4rem;
+
+$padding-4: 0.25rem;
+$padding-8: 0.5rem;
+$padding-16: 1rem;
+$padding-24: 1.5rem;
+$padding-32: 2rem;
+$padding-48: 3rem;
+$padding-64: 4rem;
+
+$width-080: 5rem;
+$width-160: 10rem;
+$width-320: 20rem;
+$width-480: 30rem;
+$width-50p: 50%;
+$width-80p: 80%;
+$width-100p: 100%;
+$width-full: 100vw;
+
+$height-24: 1.5rem;
+$height-32: 2rem;
+$height-48: 3rem;
+$height-64: 4rem;
+$height-full: 100vh;
+
+$gap-0: 0rem;
+$gap-8: 0.5rem;
+$gap-16: 1rem;
+$gap-24: 1.5rem;
+$gap-32: 2rem;
+
+$size-btn-height-32: 2rem;
+$size-btn-height-40: 2.5rem;
+$size-btn-height-44: 2.75rem;
+$size-btn-height-48: 3rem;
+$size-btn-height-52: 3.25rem;
+$size-icon-16: 1rem;
+$size-icon-24: 1.5rem;
+$size-avatar-40: 2.5rem;
+$size-img-hw-150: 9.375rem;
+
+$radius-0: 0;
+$radius-4: 0.25rem;
+$radius-6: 0.375rem;
+$radius-8: 0.5rem;
+$radius-16: 1rem;
+$radius-24: 1.5rem;
+$radius-999: 624.938rem;
+
+$border-width-1: 0.063rem;
+$border-width-2: 0.125rem;
+$border-width-3: 0.188rem;
+$border-width-4: 0.25rem;
