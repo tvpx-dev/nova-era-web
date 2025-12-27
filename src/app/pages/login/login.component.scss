@@ -1,0 +1,24 @@
+@use "../../../scss/variables";
+@use "../../../scss/mixins";
+
+.new-form-login {
+  padding: variables.$padding-24;
+  @include mixins.flexbox(column, center, center, variables.$gap-16);
+  background-color: aqua;
+}
+
+.new-btn {
+  width: variables.$width-100p;
+  padding: variables.$padding-16;
+  border: none;
+  border-radius: variables.$radius-6;
+  background-color: variables.$color-primary-base;
+  color: variables.$color-primary-light;
+  font-weight: variables.$weight-600;
+  font-family: variables.$text-content;
+  font-size: variables.$size-text-20;
+
+  &:hover {
+    background-color: variables.$color-primary-hover;
+  }
+}
