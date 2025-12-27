@@ -1,0 +1,32 @@
+@use "../../../scss/variables";
+@use "../../../scss/mixins";
+
+.new-footer-container {
+  width: variables.$width-full;
+  height: variables.$height-100;
+  @include mixins.flexbox(column, center, center, variables.$gap-4);
+  background-color: variables.$color-primary-base;
+
+  .new-footer__logo {
+    background-color: variables.$color-primary-light;
+    border-radius: variables.$radius-6;
+
+    .new-footer__img-logo {
+      width: 40px;
+      border-radius: variables.$radius-6;
+    }
+  }
+
+  .new-footer__texto-container {
+    padding: variables.$padding-4;
+    @include mixins.flexbox(column, center, center, variables.$gap-0);
+
+    .new-footer__texto {
+      margin-bottom: 0;
+      font-size: variables.$size-text-12;
+      font-family: variables.$text-title;
+      font-weight: variables.$weight-500;
+      color: variables.$color-primary-light;
+    }
+  }
+}
