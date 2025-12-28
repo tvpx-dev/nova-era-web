@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./scss/variables";
+@use "./scss/mixins";
+
+.new-section-container {
+  background-color: variables.$color-primary-light;
+  width: variables.$width-full;
+  height: calc(
+    variables.$height-full - (variables.$height-64 + variables.$height-100)
+  );
+  @include mixins.flexbox(column, center, center, variables.$gap-16);
+}
+
+.new-inputs {
+  width: variables.$width-100p;
+}

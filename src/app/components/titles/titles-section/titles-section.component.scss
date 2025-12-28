@@ -1,0 +1,15 @@
+@use "../../../../scss/mixins";
+@use "../../../../scss/variables";
+
+.new-title-container {
+  width: variables.$width-100p;
+  padding: variables.$padding-8;
+  @include mixins.flexbox(row, center, center, variables.$gap-0);
+
+  .new-title {
+    color: variables.$color-primary-light;
+    font-family: variables.$text-title;
+    font-size: variables.$size-text-32;
+    font-weight: variables.$weight-600;
+  }
+}

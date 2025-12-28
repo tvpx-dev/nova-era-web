@@ -1,0 +1,13 @@
+@use "../../../scss/variables";
+@use "../../../scss/mixins";
+
+.new-header-container {
+  width: variables.$width-full;
+  height: variables.$height-64;
+  background-color: variables.$color-primary-light;
+  @include mixins.flexbox(row, center, center, variables.$gap-0);
+  .new-header__logo {
+    width: 64px;
+    border-radius: variables.$radius-8;
+  }
+}
