@@ -4,7 +4,12 @@
 .new-form-login {
   padding: variables.$padding-24;
   @include mixins.flexbox(column, center, center, variables.$gap-16);
-  background-color: aqua;
+  border-radius: variables.$radius-6;
+  background: linear-gradient(
+    variables.$color-primary-base 0%,
+    variables.$color-primary-hover 50%,
+    variables.$color-primary-light 100%
+  );
 }
 
 .new-btn {
