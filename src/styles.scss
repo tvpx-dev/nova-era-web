@@ -9,8 +9,18 @@
   );
   @include mixins.flexbox(column, center, center, variables.$gap-16);
 
+  // RESPONSIVIDADE MOBILE
   @media (min-width: 390px) and (max-width: 412px) {
     height: calc(variables.$height-full - (200px + variables.$height-100));
+  }
+
+  // RESPONSIVIDADE TABLET
+  @media (min-width: 700px) {
+    height: calc(variables.$height-full - (300px + variables.$height-100));
+  }
+
+  @media (min-width: 1024px) {
+    height: calc(variables.$height-full - (600px + variables.$height-100));
   }
 }
 

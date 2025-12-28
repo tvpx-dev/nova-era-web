@@ -7,16 +7,36 @@
   background-color: variables.$color-primary-light;
   @include mixins.flexbox(row, center, center, variables.$gap-0);
 
+  // RESPONSIVIDADE MOBILE
   @media (min-width: 390px) and (max-width: 412px) {
     height: 200px;
+  }
+
+  // RESPONSIVIDADE TABLET
+  @media (min-width: 700px) {
+    height: 300px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 600px;
   }
 
   .new-header__logo {
     width: 64px;
     border-radius: variables.$radius-8;
 
+    // RESPONSIVIDADE MOBILE
     @media (min-width: 390px) and (max-width: 412px) {
       width: 200px;
+    }
+
+    // RESPONSIVIDADE TABLET
+    @media (min-width: 700px) {
+      width: 300px;
+    }
+
+    @media (min-width: 1024px) {
+      width: 600px;
     }
   }
 }

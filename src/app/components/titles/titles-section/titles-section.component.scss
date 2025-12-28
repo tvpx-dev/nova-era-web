@@ -6,10 +6,20 @@
   padding: variables.$padding-8;
   @include mixins.flexbox(row, center, center, variables.$gap-0);
 
+  // RESPONSIVIDADE TABLET
+  @media (min-width: 1024px) {
+    padding: variables.$padding-48;
+  }
+
   .new-title {
     color: variables.$color-primary-light;
     font-family: variables.$text-title;
     font-size: variables.$size-text-32;
     font-weight: variables.$weight-600;
+
+    // RESPONSIVIDADE TABLET
+    @media (min-width: 1024px) {
+      font-size: variables.$size-text-48;
+    }
   }
 }

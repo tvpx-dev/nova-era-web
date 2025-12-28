@@ -11,8 +11,20 @@
     variables.$color-primary-light 100%
   );
 
+  // RESPONSIVIDADE MOBILE
   @media (min-width: 390px) and (max-width: 412px) {
     padding: variables.$padding-48;
+  }
+
+  // RESPONSIVIDADE TABLET
+  @media (min-width: 700px) {
+    width: variables.$width-80p;
+    padding: variables.$padding-48;
+  }
+
+  @media (min-width: 1024px) {
+    padding: variables.$padding-64;
+    gap: variables.$gap-24;
   }
 }
 
