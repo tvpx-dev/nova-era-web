@@ -10,6 +10,10 @@
     variables.$color-primary-hover 50%,
     variables.$color-primary-light 100%
   );
+
+  @media (min-width: 390px) and (max-width: 412px) {
+    padding: variables.$padding-48;
+  }
 }
 
 .new-btn {

@@ -8,6 +8,10 @@
     variables.$height-full - (variables.$height-64 + variables.$height-100)
   );
   @include mixins.flexbox(column, center, center, variables.$gap-16);
+
+  @media (min-width: 390px) and (max-width: 412px) {
+    height: calc(variables.$height-full - (200px + variables.$height-100));
+  }
 }
 
 .new-inputs {
